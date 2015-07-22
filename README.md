@@ -25,11 +25,17 @@ tinymce.init({
 });
 ```
 
-Usage:
-
-Loading Embed post Client Side
-
-Javascript
+**Usage:**
+...
 
 
-PHP
+**Loading Embed post client side**
+...
+
+
+**Javascript**
+...
+
+
+**PHP**
+...
