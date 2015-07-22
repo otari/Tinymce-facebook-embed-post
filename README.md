@@ -4,10 +4,10 @@ Adds Facebook post embed functionality to tinymce (plugin)
 
 > Tinymce Version 4.2
 
-___
+---
 [View Demo][1]
 [1]: http://otsilosani.com/tinymcefbembed/
-___
+---
 
 **Adding plugin to your tinymce**
 
