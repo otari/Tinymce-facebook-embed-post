@@ -11,7 +11,7 @@ tinymce.PluginManager.add('facebookembed', function(editor, url) {
 	    	//Add menu item 
 	    	editor.addMenuItem('facebookembed', {
 		        text: 'Embed Facebook post',
-		        context: 'insert',
+		        context: 'tools',
 		        onclick: function() {
 		            // Open window
 		            facebookEmbedOpen();
@@ -34,7 +34,7 @@ tinymce.PluginManager.add('facebookembed', function(editor, url) {
 						align: 'center',
 						spacing: 5,
 						items: [{
-								name:'width', 
+							name:'width', 
 								type:'textbox', 
 								maxLength:4,
 								size:3,
