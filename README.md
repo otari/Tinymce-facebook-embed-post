@@ -34,9 +34,7 @@ Plugin simply puts dummy image into your content with *data-post*, *data-width* 
 
 
 **Loading Embed post client side using Javascript**
-> *dependency*
-> - facebook-jssdk
-> - jQuery
+
 ````javascript
 	$(function(){
 		var fb_embed_post_template = '<div class="fb-post" data-href="{embed_post_url}" data-width="{embed_post_width}"></div>';
@@ -47,6 +45,11 @@ Plugin simply puts dummy image into your content with *data-post*, *data-width* 
 		});
 	});
 ```
+
+**dependency**
+> - facebook-jssdk
+> - jQuery
+
 
 **PHP**
 Coming Soon
