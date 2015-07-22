@@ -27,7 +27,7 @@ tinymce.init({
 
 **Usage:**
 
-Simply Copy/Paste embed code of any post on Facebook, plugin will take care about grabbing needed data from it. 
+Simply Copy/Paste embed code of any post from Facebook, plugin will take care about grabbing needed data from it. 
 Plugin simply puts dummy image into your content with *data-post*, *data-width* attributes containing information about Facebok post. 
 
 
