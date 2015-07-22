@@ -47,4 +47,4 @@ Plugin simply puts dummy image into your content with *data-post*, *data-width* 
 ```
 
 **PHP**
-...
+Coming Soon
