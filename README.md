@@ -2,7 +2,7 @@
 
 Adds Facebook post embed functionality to tinymce (plugin)
 
-> Tinymce Version 4.2
+*Tinymce Version 4.2*
 
 ---
 [View Demo][1]
@@ -45,7 +45,7 @@ Plugin simply puts dummy image into your content with *data-post*, *data-width* 
 		var fb_embed_post_template = '<div class="fb-post" data-href="{embed_post_url}" data-width="{embed_post_width}"></div>';
 		var embedPost = false;
 		$.each($('.FacebookEmbedPost'), function(index, value) {
-			embedPost = fb_embed_post_template.replace("{embed_post_url}", $(value).data('post')).replace("{embed_post_url}", $(value).data('width'));
+			embedPost = fb_embed_post_template.replace("{embed_post_url}", $(value).data('post')).replace("{embed_post_width}", $(value).data('width'));
 			$(this).replaceWith(embedPost);
 		});
 	});
