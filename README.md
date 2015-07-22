@@ -15,9 +15,7 @@ tinymce.init({
 });
 ```
 
-By Default Embed button is added under Tools menu of Tinymce
-
-But you may add Facebook embed button directly to toolbar
+By Default Embed button is added under Tools menu of Tinymce, but you may add Facebook embed button directly to toolbar
 
 ````javascript
 tinymce.init({
