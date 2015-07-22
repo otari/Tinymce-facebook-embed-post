@@ -47,8 +47,8 @@ Plugin simply puts dummy image into your content with *data-post*, *data-width* 
 ```
 
 **dependency**
-> - facebook-jssdk
-> - jQuery
+- facebook-jssdk
+- jQuery
 
 
 **PHP**
