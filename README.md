@@ -14,3 +14,24 @@ tinymce.init({
 	plugins: 'facebookembed'
 });
 ```
+
+By Default Embed button is added under Tools menu of tinymce
+
+But you may add Facebook embed button directly to toolbar
+
+````javascript
+tinymce.init({
+	selector: "textarea",
+	plugins: 'facebookembed',
+	toolbar:'facebookembed,link,image,etc..'
+});
+```
+
+Usage:
+
+Loading Embed post Client Side
+
+Javascript
+
+
+PHP
