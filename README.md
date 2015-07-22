@@ -31,15 +31,11 @@ Simply Copy/Paste embed code of any post from Facebook, plugin will take care ab
 Plugin simply puts dummy image into your content with *data-post*, *data-width* attributes containing information about Facebok post. 
 
 
-**Loading Embed post client side**
-...
+**Loading Embed post client side using Javascript**
 
-
-**Javascript**
-
-*dependency*
-- facebook-jssdk
-- jQuery
+> *dependency*
+> - facebook-jssdk
+> - jQuery
 
 **Parsing loaded content with jQuery**
 ````javascript
