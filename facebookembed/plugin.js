@@ -43,11 +43,10 @@ tinymce.PluginManager.add('facebookembed', function(editor, url) {
 							}]
 					}],
 	                onsubmit: function(e) {
-	                    
-	                    var FbEmbeds, FbImage, FbBEmbedWidth, FbEmbedError;
-
-	                    FbEmbeds = e.data.post.match(/(https?:\/\/)?(www.)?facebook.com\/([\S]+\/(posts|permalink|photos|videos)\/(\d|[a-zA-Z0-9.\/\?type=\d])+|permalink.php\?story_fbid=\d+&amp;id=\d+|photo.php\?[a-zA-Z=]+\d+|video.php\?[a-zA-Z=]+\d+|media\/set\/\?set=[a-zA-Z0-9.]+)/ig);
-	                   
+	                	var FbEmbedError = false;
+	                	var regex = /=https?\:\/\/\w{3}\.facebook\.com\/(.*)\/(videos?|posts?)\/\d+/i;
+						var FbEmbeds = regex.exec(decodeURIComponent(e.data.post));
+						
 	                    if(FbEmbeds === null){
 	                    	FbEmbedError = true;
 	                    }else if(!FbEmbeds.length) {
