@@ -6,7 +6,7 @@ Adds Facebook post embed functionality to tinymce (plugin)
 
 ---
 [View Demo][1]
-[1]: http://otsilosani.com/tinymcefbembed/
+[1]: https://jsfiddle.net/gbus1Ldx/13/
 ---
 
 **Adding plugin to your tinymce**
