@@ -66,7 +66,7 @@ tinymce.PluginManager.add('facebookembed', function(editor, url) {
 		                    
 		                    //Add data attributes to img element
 		                    FbImage.setAttribute('class','FacebookEmbedPost');
-		                    FbImage.setAttribute('data-post', FbEmbeds[0]);
+		                    FbImage.setAttribute('data-post', FbEmbeds[0].replace('=', ''));
 		                    FbImage.setAttribute('data-width', (FbBEmbedWidth ? FbBEmbedWidth : 960));
 		                    // Insert content when the window form is submitted
 		                   	editor.insertContent(FbImage.outerHTML);
